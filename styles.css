@@ -1,0 +1,103 @@
+h1 {
+    color: blue;
+}
+
+.quote {
+    color: black;
+    font-size: large;
+}
+
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.intro, .project-heading {
+    text-align: center;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like-to {
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.project-img {
+    justify-self: center;
+    padding: 4%;
+}
+
+@media (max-width: 480px) {
+    .about-me {
+        grid-template-columns: 100%;
+    }
+}
+
+.profile-picture {
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    transition: all ease-in-out .2s;
+}
+
+.profile-picture:hover {
+    box-shadow: 9px 9px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.project-img {
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    transition: all ease-in-out .2s;
+}
+
+.project-img:hover {
+    box-shadow: 9px 9px 2px 1px rgba(0, 0, 255, .2);
+    filter: brightness(55%);
+}
+
+.project-img-wrapper {
+    justify-self: bottom;
+    padding: 4%;
+    position: relative;
+}
+
+.project-img-wrapper > h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	visibility: hidden;
+	z-index: 2;
+	transition: all ease-in-out .2s;
+}
+
+.project-img-wrapper:hover > h3 {
+    visibility: visible;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: 	#e6eeff
+}
+
+h1, h2, h3 ,h4 {
+    font-family: 'Roboto Mono', monospace;
+}
