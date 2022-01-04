@@ -2373,7 +2373,6 @@ ul.actions.fit.stacked {
 	justify-self: center;
 	box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
 	transition: all ease-in-out .2s;
-	;
 }
 
 .about-logo:hover {
@@ -2384,14 +2383,6 @@ ul.actions.fit.stacked {
 .about-grid {
 	display: grid;
 	grid-template-columns: 15% 90%;
-}
-
-/* Resume */
-
-.resume-pdf {
-	width: 1200px;
-	height: 1200px;
-
 }
 
 /* Table */
