@@ -2038,6 +2038,18 @@ input[type="radio"]+label:before {
 	font-family: 'Font Awesome 5 Brands';
 }
 
+#body-icon {
+	color: rgb(146, 146, 146);
+	font-size: 1.25em;
+}
+
+#body-icon-project {
+	color: rgb(146, 146, 146);
+	font-size: 2em;
+	margin-bottom: 1em;
+	margin-top: 10em;
+}
+
 /* Image */
 
 .image {
