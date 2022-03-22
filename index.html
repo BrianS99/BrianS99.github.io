@@ -11,6 +11,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body class="is-preload">
@@ -112,21 +116,31 @@
 			<h1>Technical Projects</h1>
 			<div class="row">
 				<article class="col-6 col-12-xsmall work-item">
+					<a href="images/fulls/projects-enph353.png" class="image fit thumb"><img
+							src="images/thumbs/projects-enph353.png" alt="" /></a>
+					<h3>Self-Driving Car Simulation</h3>
+					<p><i>-- Python, OpenCV, ROS, Tensorflow, Linux --</i></p>
+					<p>This project is part of a machine learning course, ENPH 353. The objective was to simulate a self-driving car in ROS Melodic.
+						I developed software to follow the road, detect other traffic, and to yield to pedestrians.
+						I also trained a convolutional neural network using the Keras framework to detect license plates and reading them correctly.
+					</p>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/projects-educatr.png" class="image fit thumb"><img
 							src="images/thumbs/projects-educatr.png" alt="" /></a>
-					<h3>NwHacks 2022 - Educatr Web Application</h3>
-					
-					<p>The website enables users to create interactive lessons for others to learn, in any academic
+					<h3>NwHacks 2022 - Educational Website</h3>
+					<p><i>-- TypeScript, React, Spring Boot, Node.js, MongoDB --</i></p>
+					<p>The website is used to create and share interactive lessons for others to learn in any academic
 						subject.
 						Creators can write lessons using a text editor with full Markdown and Latex support.
-						They can also customize their own questions to quiz the learners! We used Next.js, React,
-						Springboot and MongoDB.</p>
+						They can also customize their own questions to quiz the learners. I worked mainly on the frontend and created
+						over 10 React components, like a multiple choice quiz editor that would be used extensively.</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/thumbs/project-robot.jpg" class="image fit thumb"><img
 							src="images/thumbs/project-robot.jpg" alt="" /></a>
 					<h3>Autonomous Soda Can Retrieving Robot</h3>
-					
+					<p><i>-- C++, STM32 Bluepill, PlatformIO --</i></p>
 					<p>The robot is the final deliverable of a 4-month project. It drives and follows a tape path, and
 						detects and picks up soda cans to drop off vertically in a box. I specifically worked on the
 						control software, driving PID algorithm, and tuning of the robot.
@@ -136,6 +150,7 @@
 					<a href="images/fulls/project-adc.jpg" class="image fit thumb"><img
 							src="images/thumbs/project-adc-thumb.jpg" alt="" /></a>
 					<h3>Analog-to-Digital Converter</h3>
+					<p><i>-- Oscilloscope, Signal Generator, Hand Tools --</i></p>
 					<p>Functional ADC made using discrete electronic components. The input voltage is displayed on the
 						7-segment display seen in the top left of the picture.</p>
 				</article>
@@ -143,16 +158,17 @@
 					<a href="images/fulls/projects-tic.png" class="image fit thumb"><img
 							src="images/thumbs/projects-tic.png" alt="" /></a>
 					<h3>Tic-Tac-Toe Game</h3>
-					
+					<p><i>-- Java, AWT, IntelliJ --</i></p>
 					<p>Singleplayer game coded in Java. It has a functional GUI and the player plays against a computer
-						algorithm.</p>
+						algorithm. The program automatically checks if there is a winner after each move and also keeps track of score.</p>
 				</article>
 				<article class="col-6 col-12-xsmall work-item">
 					<a href="images/fulls/projects-img.jpg" class="image fit thumb"><img
 							src="images/thumbs/project-mp1.png" alt="" /></a>
 					<h3>Image Processing Library</h3>
+					<p><i>-- Java, JUnit, AWT, IntelliJ--</i></p>
 					<p>Java project where I developed over 15 image-transforming algorithms such as green screen,
-						posterize, and rotating images.</p>
+						posterize, and rotating images. I also wrote my own test cases using JUnit by designing algorithms to generate images, achieving 99% code coverage.</p>
 				</article>
 			</div>
 			<div ul class="actions">
